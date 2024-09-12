@@ -1,0 +1,105 @@
+.container {
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 14px;
+    gap: 50px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.but {
+    display: flex;
+    gap: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 440px;
+}
+
+.name {
+    position: relative;
+}
+
+.name label {
+    position: absolute;
+    top: -12px;
+    left: 23px;
+    background-color: white;
+    width: 56px;
+    font-weight: 500;
+
+    padding: 0 0 0 5px;
+}
+
+.email {
+    position: relative;
+}
+
+.email label {
+    position: absolute;
+    font-weight: 500;
+    top: -12px;
+    left: 23px;
+    background-color: white;
+    width: 56px;
+    padding: 0 0 0 5px;
+}
+
+.textarea {
+    position: relative;
+}
+
+.textarea label {
+    position: absolute;
+    font-weight: 500;
+
+    top: -12px;
+    left: 23px;
+    background-color: white;
+    width: 56px;
+    padding: 0 0 0 5px;
+}
+
+.name input {
+    width: 440px;
+    padding: 0 0px 0 50px;
+    height: 38px;
+    font-size: 16px;
+    font-family: "Poppins";
+}
+
+.email input {
+    width: 440px;
+    height: 38px;
+    padding: 0 0px 0 50px;
+    font-size: 16px;
+    font-family: "Poppins";
+}
+
+.textarea {
+    width: 440px;
+    font-size: 16px;
+
+    font-family: "Poppins";
+
+}
+
+.submit {
+    background-color: black;
+    width: 220px;
+    margin-top: -8px;
+    color: white;
+    height: 35px;
+    border-radius: 5px;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}

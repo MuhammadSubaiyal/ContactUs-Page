@@ -1,0 +1,18 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 975px;
+}
+
+.contact h1 {
+    font-size: 37px;
+    font-weight: 48px;
+    height: 60px;
+}
+
+.contact p {
+    font-weight: 500;
+    color: #5A5959;
+    font-size: 16px;
+}

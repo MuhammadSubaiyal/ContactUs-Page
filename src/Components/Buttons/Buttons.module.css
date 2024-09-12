@@ -1,0 +1,20 @@
+.butt {
+    background-color: black;
+    width: 220px;
+    color: white;
+    height: 39px;
+    border-radius: 5px;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.long {
+    background-color: white;
+    width: 472px;
+    color: black;
+    height: 39px;
+    border-radius: 5px;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
